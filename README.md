@@ -71,7 +71,7 @@
         const target = videoElement.parentElement;
         if (!target) return;
 
-        let titleEl = target.querySelector(\`#\${ID}\`);
+        let titleEl = target.querySelector(`#${ID}`);
         if (!titleEl) {
             titleEl = createTitleElement();
             target.appendChild(titleEl);
@@ -104,7 +104,7 @@
         const target = videoElement.parentElement;
         if (!target) return;
 
-        const titleEl = target.querySelector(\`#\${ID}\`);
+        const titleEl = target.querySelector(`#${ID}`);
         if (!titleEl) return;
 
         const rect = videoElement.getBoundingClientRect();
